@@ -1,7 +1,10 @@
   package fr.unilim.iut.spaceinvaders;
 
+
     import static org.junit.Assert.assertEquals;
     import org.junit.Test;
+
+import fr.unilim.iut.spaceinvaders.utils.HorsEspaceJeuException;
 
     public class SpaceInvadersTest {
 	
