@@ -57,7 +57,7 @@ public class SpaceInvaders {
 	public void deplacerVaisseauVersLaDroite() {
 		if (vaisseau.abscisseLaPlusADroite() < (longueur - 1))
 			vaisseau.seDeplacerVersLaDroite();
-	}
+	} 
 
 	public void deplacerVaisseauVersLaGauche() {
 		if (vaisseau.abscisseLaPlusAGauche()> (0)) vaisseau.seDeplacerVersLaGauche();
@@ -66,7 +66,7 @@ public class SpaceInvaders {
 	  public void positionnerUnNouveauVaisseau(Dimension dimension, Position position) {
 			
 			int x = position.abscisse();
-			int y = position.ordonnée();
+			int y = position.ordonnee();
 			
 			if (!estDansEspaceJeu(x, y))
 				throw new HorsEspaceJeuException("La position du vaisseau est en dehors de l'espace jeu");
